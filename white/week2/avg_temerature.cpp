@@ -8,8 +8,8 @@ int main() {
     vector<int> temps(n);
     int temps_sum = 0;
     for (int& temp : temps) {
-        temps_sum += temp;
         cin >> temp;
+        temps_sum += temp;
     }
     int avg_temp = temps_sum / n;
     vector<int> result_vec;

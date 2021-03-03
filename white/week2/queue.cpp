@@ -23,6 +23,7 @@ void WorryCount(const vector<bool>& queue) {
             count++;
         }
     }
+    cout << count << endl;
 }
 
 int main() {
@@ -42,7 +43,7 @@ int main() {
             ChangeQueueMember(queue, false);
         }
         if (operation == "WORRY_COUNT") {
-            queue
+            WorryCount(queue);
         }
     }
     return 0;
